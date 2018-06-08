@@ -14,6 +14,9 @@ repositories {
 
 dependencies {
     compile 'org.codehaus.groovy:groovy-all:2.5.0'
+    // https://mvnrepository.com/artifact/org.ujmp/ujmp-core
+    compile group: 'org.ujmp', name: 'ujmp-core', version: '0.3.0'
+
     testCompile group: 'junit', name: 'junit', version: '4.12'
     // https://mvnrepository.com/artifact/org.spockframework/spock-core
     testCompile group: 'org.spockframework', name: 'spock-core', version: '1.1-groovy-2.4'
